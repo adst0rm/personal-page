@@ -1,7 +1,9 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:my_portfolio/constants/colors.dart';
+import 'package:my_portfolio/pages/blog.dart';
 
 class GreetingDesktop extends StatelessWidget {
   const GreetingDesktop({super.key});
@@ -32,6 +34,16 @@ class GreetingDesktop extends StatelessWidget {
                 TextSpan(
                     text:
                         ', a Full-Stack developer and aspiring CS major student. I build bridges between human and machine.'),
+                TextSpan(
+                    text: " Go to my blog!",
+                    style: TextStyle(
+                        color: CustomColor.whiteBlue,
+                        decoration: TextDecoration.underline),
+                    recognizer: TapGestureRecognizer()
+                      ..onTap = () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => MyBlog()));
+                      }),
               ])),
         )));
   }
