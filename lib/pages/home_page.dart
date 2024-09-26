@@ -31,7 +31,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final GlobalKey<ScaffoldState> scaffoldkey = GlobalKey<ScaffoldState>();
-  final scrollcontroller = ScrollController();
+  final scrollcontroller = ScrollController(); // to get access to sections
   final List<GlobalKey> navbarkeys = List.generate(5, (index) => GlobalKey());
   @override
   Widget build(BuildContext context) {
