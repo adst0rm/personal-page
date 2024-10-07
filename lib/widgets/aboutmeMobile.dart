@@ -20,7 +20,7 @@ class AboutMeMobile extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              "My full name is Adil Ergen. I'm study at NIS PhMD Uralsk.",
+              "My full name is Adil Ergen. I study at NIS PhMD Uralsk.",
               style: TextStyle(
                   fontSize: 20,
                   color: CustomColor.mainBlack,

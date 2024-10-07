@@ -21,7 +21,7 @@ class AboutMeDesktop extends StatelessWidget {
                   width: 100,
                 ),
                 Text(
-                  "My full name is Adil Ergen. \n I'm study at NIS PhMD Uralsk.",
+                  "My full name is Adil Ergen. \n I study at NIS PhMD Uralsk.",
                   style: TextStyle(
                       fontSize: 30,
                       color: CustomColor.mainBlack,

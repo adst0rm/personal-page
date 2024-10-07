@@ -21,7 +21,7 @@ class GreetingDesktop extends StatelessWidget {
                   style: TextStyle(
                       fontFamily: 'consolas',
                       color: CustomColor.whiteText,
-                      fontSize: 80,
+                      fontSize: 60,
                       height: 1.5),
                   children: <TextSpan>[
                 TextSpan(text: 'I’m '),

@@ -16,10 +16,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        backgroundColor: CustomColor.mainBlack,
-        primaryColor: CustomColor.mainBlack,
-      ),
       title: 'Ergen Adil',
       home: HomePage(),
     );
