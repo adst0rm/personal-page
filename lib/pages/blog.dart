@@ -39,7 +39,7 @@ class MyBlog extends StatelessWidget {
                           children: [
                         TextSpan(
                             text:
-                                "Today I made blog section! In Flutter, you can set default properties like text size, color, and font family using the ThemeData class, which allows you to define a custom theme for your entire app. The theme can be specified in the MaterialApp widget or CupertinoApp, and you can customize properties like textTheme, primaryColor, and fontFamily."),
+                                "Today I made blog section! I guess, I will launch Kelbet-til app soon. Like gimme 30-40 days. It is always hard to find out where you really should to startm but sometimes you must just start without any distracting thoughts. It is part of every action in your life. Just start - then you will see what it can result in."),
                       ])),
                 ),
               ]),
